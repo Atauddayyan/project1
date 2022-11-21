@@ -1,0 +1,21 @@
+*{
+    font-family: Calibri;
+}
+#jane{
+    font-family: calibri;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 70px;
+}
+.clumsy img{
+    position: relative;
+}
+.clumsy div{
+    position: absolute;
+    top: 400px;
+    color: white; 
+    padding:20px;
+}
+.clumsy div span{
+    font-size: 50px;
+}
