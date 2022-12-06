@@ -1,0 +1,109 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="progress.css">
+    <style>
+        .nav-bar{
+            margin: 10px;
+            padding-top: 30px;
+            box-shadow: 5px 5px 7px black;
+            padding-left: 50px;
+            padding-bottom: 30px;
+        }
+        .nav-bar a{
+            text-decoration: none;
+            color: black;
+            list-style-type: none;
+            display: inline;
+            padding-left: 100px; 
+        }
+        .nav-bar :hover{
+            color: black;
+            background-color: transparent;
+            border: 2px solid black;
+        }
+        .nav-bar a.active{
+            background-color: #2196F3;
+            color: white;
+        }
+        .dropdown {
+        position: relative;
+        display: inline-block;
+        }
+
+        .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        }
+
+        .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        }
+
+        .dropdown-content a:hover {background-color: #f1f1f1}
+
+        .dropdown:hover .dropdown-content {
+        display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+        background-color: #3e8e41;
+        }
+        img{
+        float: left;
+        }
+        video{
+            width: 400px;
+            height: 400px;
+            margin: 50px;
+        }
+        textarea{
+            float: right;
+            margin: 70px;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav-bar">
+        <a href="">HOME</a>
+        <a href="">ABOUT</a>
+        <div class="dropdown">
+            <a href="">PRODUCTS</a>
+            <div class="dropdown-content">
+                <ul>
+                    <li>Desktop Computer</li>
+                    <li>Laptop</li>
+                    <li>Inverter panels</li>
+                    <li>Shirts</li>
+                    <li>Jeans</li>
+                    <li>Sneakers</li>
+                </ul>
+            </div>
+        </div>
+        <a href="">REGISTER</a>
+        <a href="cds.html">LOGIN</a>
+        <i style="margin-left: 80px;" class="fa-solid fa-cart-shopping"></i>
+    </div>
+    <div>
+        <video src="pen spinning tutorial.mp4" controls></video>
+        <textarea name="Penspinning" id="" cols="30" rows="10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, inventore ab, soluta maiores earum vel quod voluptas commodi ducimus quo incidunt velit dolore laudantium quam, saepe mollitia nostrum harum accusamus fugit a fugiat ea ad magni! Perspiciatis quibusdam quo adipisci voluptates similique repellendus fugit? Debitis nemo quisquam temporibus sequi porro fuga aliquid, fugiat, rerum reprehenderit deserunt quam odio. Esse repellat nostrum nisi dolorum adipisci corporis animi explicabo odit vitae! Error earum fuga tempore cum, quidem quasi quis porro dolorum consequatur iste voluptas placeat in labore id vel itaque eius eligendi explicabo corporis qui ullam assumenda voluptatem quam exercitationem. Animi excepturi a quae dolor ea dolorum deserunt voluptatibus quas nostrum cum sequi veritatis praesentium porro possimus, sed architecto voluptas tenetur, fugiat voluptate harum dignissimos natus pariatur laboriosam quis? Eveniet, error tempora consequuntur deserunt laudantium voluptatibus at accusamus maxime, perferendis iste libero consequatur quos delectus molestias commodi eos quas accusantium nesciunt voluptates similique repellendus nobis in magnam. Corrupti velit aliquam, ducimus modi id natus harum laudantium repellat magni dolorem beatae cumque? Deleniti similique blanditiis tempore? Facilis illo, natus corporis enim maiores expedita eum alias labore, sit, iure nulla error ab nam quae qui itaque voluptatum inventore culpa quam? Cupiditate veniam tempora et.</textarea>
+    </div>
+    <div>
+        <div class="progress">
+            <div class="track">
+                <div class="bar" style="width:50%">50%</div>
+            </div>
+        </div>
+    </div> 
+</body>
+</html>
